@@ -1,13 +1,59 @@
 @import "vars";
 @import "libs";
 @import "fonts";
+@import "global";
+
+.header{
+  padding: 40px 252px 0 240px;
+  background-image: url(../img/header-bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 1184px;
+}
+
+.header__top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__menu{
+  width: 604px;
+  .menu__list{
+    display: flex;
+    justify-content: space-between;
+  }
+  li{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    a{
+      padding: 20px 24px 21px;
+    }
+
+  }
+}
+
+.menu__list--btn{
+  background-color: #EE4D47;
+  border-radius: 5px;
+}
+
+.header__title{
+  font-family: 'DM Serif Display';
+  font-weight: normal;
+  font-size: 100px;
+  line-height: 100%;
+  color: #FFFFFF;
+  max-width: 741px;
+  padding-top: 94px;
+  padding-bottom: 60px;
+}
+
+
 
 
 @import "media";
-
-
-
-
-
-//@import "../../node_modules/slick-carousel/slick/slick";
-//@import "../../node_modules/magnific-popup/dist/magnific-popup";
