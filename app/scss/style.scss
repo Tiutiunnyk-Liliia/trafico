@@ -54,6 +54,56 @@
 }
 
 
+.traffic{
+  min-height: 550px;
+  padding: 105px 184px 160px 249px;
+}
+
+.traffic__inner{
+  background-image: url(../img/traffic.png);
+  background-size: auto;
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
+.traffic__info{
+  max-width: 570px;
+  padding-top: 74px;
+}
+
+.traffic__text{
+  max-width: 470px;
+  width: 100%;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 40px;
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+.traffic__note{
+  width: 100%;
+  padding: 30px 55px 30px 45px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  background-color: rgba(#FCDDD4, 0.4);
+  border-left: 10px solid #ED4D47;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @import "media";
