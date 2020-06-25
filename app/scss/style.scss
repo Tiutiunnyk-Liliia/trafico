@@ -93,6 +93,36 @@
   border-top-left-radius: 10px;
 }
 
+.apply{
+  padding: 0 240px 120px 128px;
+  min-height: 679px;
+  height: 100%;
+  background-image: url(../img/apply.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 130px center;
+}
+
+.apply__inner{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.apply__title{
+  margin-bottom: 40px;
+}
+
+.apply__info{
+  max-width: 455px;
+  padding-top: 80px;
+}
+
+.apply__text{
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 40px;
+}
+
 
 
 
