@@ -220,7 +220,7 @@
 
 .about{
   margin-top: 177px;
-  margin-bottom: 160px;
+  margin-bottom: 220px;
   padding-left: 240px;
   display: flex;
   justify-content: space-between;
@@ -313,8 +313,112 @@
 }
 
 
+.footer{
+  padding-right: 335px;
+  padding-left: 220px;
+  min-height: 920px;
+  background-image: url(../img/footer-top-bg.png);
+  background-repeat: no-repeat;
+  background-position: 0 110px;
+  position: relative;
+}
+
+.footer__car{
+  position: absolute;
+  top:-75px;
+  left: 0;
+}
+
+.footer-top__box{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 170px;
+}
+
+.footer-top__box-info{
+  max-width: 380px;
+  padding-left: 40px;
+  margin-top: 220px;
+  margin-bottom: 70px;
+  border-left: 10px solid #ED4D47;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  color: #fff;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
 
 
+.footer-top__box-form{
+  padding: 52px 75px 52px 75px;
+  min-height: 440px;
+  width: 100%;
+  max-width: 550px;
+  background-color: #fff;
+  box-shadow: 0 20px 40px rgba(238, 77, 71, 0.1);
+  border-radius: 10px;
+  input{
+    display: block;
+    margin-bottom: 30px;
+    padding: 11px 40px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 40px;
+    border: 1px solid rgba(238, 77, 71, 0.5);
+    border-radius: 5px;
+    width: 100%;
+  }
+  label{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+}
+
+.footer-holder{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 120px;
+}
+
+.footer__menu{
+  width: 100%;
+  max-width: 368px;
+  .menu__list{
+    display: flex;
+    justify-content: space-between;
+  }
+  a{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+}
+
+.footer-bottom{
+  padding: 52px 0 94px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-bottom__copy{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.footer-bottom__social{
+  display: flex;
+  justify-content: space-between;
+  width: 170px;
+}
 
 
 
