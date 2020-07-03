@@ -9,6 +9,11 @@
   .traffic{
     padding: 105px 110px 160px 140px;
   }
+
+  .apply{
+    padding: 0 120px 120px 90px;
+    background-position: 0 center;
+  }
 }
 
 
@@ -48,6 +53,12 @@
   .traffic__inner{
     background-size: 517px;
   }
+
+  .apply{
+    padding: 0 70px 120px 30px;
+    background-position: -50px center;
+    background-size: 600px;
+  }
 }
 
 @media (max-width: 1020px){
@@ -65,6 +76,11 @@
 
   .traffic{
     padding: 90px 20px 120px 50px
+  }
+
+  .apply{
+    padding: 0 30px 120px 50px;
+    background-size: 530px;
   }
 }
 
@@ -121,11 +137,18 @@
 
 }
 
+@media (max-width: 900px) {
+  .apply__info {
+    max-width: 388px;
+  }
+}
+
 
 @media (max-width: 830px){
   .header{
     padding: 40px 40px 0 30px;
     min-height: 610px;
+    background-size: cover;
   }
   .header__title {
     font-size: 45px;
@@ -135,6 +158,11 @@
   }
 
   .traffic__info{
+    max-width: 100%;
+    background-color: rgba(#FEF8F5, 0.5);
+  }
+
+  .apply__inner{
     max-width: 100%;
     background-color: rgba(#FEF8F5, 0.5);
   }
@@ -165,6 +193,14 @@
   .traffic__info{
     padding-top: 25px;
   }
+
+  .apply{
+    background-image: none;
+  }
+
+  .apply__info {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 660px){
@@ -193,7 +229,6 @@
 
   .header__title {
     font-size: 35px;
-    //max-width: 320px;
     padding-top: 30px;
     padding-bottom: 25px;
   }
