@@ -17,4 +17,8 @@ $(function () {
         prevArrow: '<img class="slider-arrows slider-arrows-left" src="img/prev.png" alt="">',
         nextArrow: '<img class="slider-arrows slider-arrows-right" src="img/next.png" alt="">',
     });
+
+    $('.header__menu-btn').on('click', function () {
+        $('.header__menu').toggleClass('active')
+    });
 });

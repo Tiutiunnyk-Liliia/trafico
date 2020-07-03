@@ -6,6 +6,7 @@
 .header{
   padding: 40px 252px 0 240px;
   background-image: url(../img/header-bg.png);
+  background-position: left top;
   background-size: contain;
   background-repeat: no-repeat;
   min-height: 1184px;
@@ -18,7 +19,8 @@
 }
 
 .header__menu{
-  width: 604px;
+  width: 100%;
+  max-width: 604px;
   .menu__list{
     display: flex;
     justify-content: space-between;
@@ -34,6 +36,42 @@
       padding: 20px 24px 21px;
     }
 
+  }
+}
+
+.header__menu-btn{
+  display: none;
+  width: 60px;
+  height: 60px;
+  background-color: #EE4D47;
+  border-radius: 5px;
+  span{
+    display: block;
+    width: 40px;
+    height: 4px;
+    position: relative;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    &::before{
+      content: "";
+      position: absolute;
+      top: 10px;
+      left: 0;
+      width: 40px;
+      height: 4px;
+      background-color: #fff;
+    }
+    &::after{
+      content: "";
+      position: absolute;
+      top: -10px;
+      left: 0;
+      width: 40px;
+      height: 4px;
+      background-color: #fff;
+    }
   }
 }
 
