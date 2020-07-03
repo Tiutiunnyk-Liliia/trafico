@@ -1,6 +1,10 @@
 $(function () {
 
     $('.faq__item').on('click', function () {
+        $('.faq__item').removeClass('active')
+    });
+
+    $('.faq__item').on('click', function () {
         $(this).toggleClass('active')
     });
 

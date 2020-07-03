@@ -151,8 +151,8 @@
 
 .faq__items{
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  flex-wrap: wrap-reverse;
   justify-content: flex-end;
   align-items: flex-end;
   height: 690px;
