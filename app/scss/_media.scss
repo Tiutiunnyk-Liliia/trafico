@@ -85,6 +85,12 @@
     padding-top: 130px;
     margin-bottom: 130px;
   }
+
+  .about{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 120px;
+  }
 }
 
 @media (max-width: 1020px) {
@@ -135,6 +141,10 @@
   .faq__bigTitle {
     font-size: 40px;
     max-width: 433px;
+  }
+
+  .about{
+    padding-left: 50px;
   }
 
 }
@@ -188,6 +198,32 @@
 
   .traffic__inner{
     background-size: 400px;
+  }
+
+  .about{
+    display: block;
+  }
+
+  .about__info{
+    max-width: 100%;
+  }
+
+  .about__bigTitle{
+    font-size: 40px;
+  }
+
+  .about__slider{
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-left: 0;
+  }
+
+  .slider-arrows-left{
+    right: 140px;
+  }
+
+  .slider-arrows-right{
+    right: 90px;
   }
 
 }
@@ -313,6 +349,26 @@
     padding-top: 30px;
     padding-bottom: 25px;
   }
+
+  .about{
+    padding-left: 30px;
+  }
+
+  .slider__inner{
+    max-width: 390px;
+    min-height: 325px;
+    padding: 40px 30px 30px 30px;
+  }
+
+  .slider-arrows-left{
+    right: 100px;
+  }
+
+  .slider-arrows-right{
+    right: 50px;
+  }
+
+
 }
 
 @media (max-width: 550px){
@@ -340,6 +396,15 @@
     max-width: 100%;
   }
 
+  .about__bigTitle{
+    font-size: 30px
+  }
+
+  .slider__inner{
+    max-width: 350px;
+    min-height: 325px;
+    padding: 40px 20px 20px 30px;
+  }
 
 }
 
@@ -349,6 +414,11 @@
     min-height: 370px;
     padding: 30px 10px 0 10px;
   }
+
+  .slider__inner{
+    max-width: 95%;
+  }
+
 }
 
 @media (max-width: 450px) {
@@ -399,6 +469,8 @@
   }
 
 
+
+
 }
 
 
@@ -420,6 +492,10 @@
 
   .faq-container{
     max-width: 300px;
+  }
+
+  .slider__inner{
+    min-height: 350px;
   }
 }
 
