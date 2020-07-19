@@ -3,6 +3,11 @@
   .header{
     min-height: 1100px;
   }
+
+  .footer-container{
+    padding-left: 120px;
+    padding-right: 200px;
+  }
 }
 
 @media (max-width: 1450px){
@@ -30,6 +35,15 @@
 
   .header__menu{
     margin-left: 60px;
+  }
+
+  .footer-container{
+    padding-left: 90px;
+    padding-right: 150px;
+  }
+
+  .footer-top{
+    background-size: cover;
   }
 }
 
@@ -88,8 +102,13 @@
 
   .about{
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 220px;
     padding-left: 120px;
+  }
+
+  .footer-container{
+    padding-left: 50px;
+    padding-right: 80px;
   }
 }
 
@@ -145,6 +164,31 @@
 
   .about{
     padding-left: 50px;
+  }
+
+  .footer-top__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1px;
+    padding-bottom: 100px;
+  }
+
+  .footer-top__box-info{
+    max-width: 520px;
+  }
+
+  .footer-holder{
+    padding-bottom: 60px;
+    flex-direction: column-reverse;
+  }
+
+  .footer-holder .logo{
+    padding-top: 40px;
+  }
+
+  .footer-bottom{
+    padding: 40px 0 50px;
   }
 
 }
@@ -271,6 +315,18 @@
 
   .traffic__text {
     max-width: 396px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-container{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .footer-top__box-form{
+    padding: 30px 40px 50px 40px;
+    min-height: auto ;
   }
 }
 
@@ -481,6 +537,10 @@
 
   .faq-container{
     max-width: 320px;
+  }
+
+  .footer-top__box-form{
+    padding: 25px 25px 40px 25px;
   }
 }
 

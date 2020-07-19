@@ -359,19 +359,29 @@
 
 
 .footer{
+  min-height: 920px;
+  //background-image: url(../img/footer-top-bg.png);
+  //background-repeat: no-repeat;
+  //background-position: 0 110px;
+  position: relative;
+}
+
+.footer-container{
   padding-right: 335px;
   padding-left: 220px;
-  min-height: 920px;
-  background-image: url(../img/footer-top-bg.png);
-  background-repeat: no-repeat;
-  background-position: 0 110px;
-  position: relative;
 }
 
 .footer__car{
   position: absolute;
   top:-75px;
   left: 0;
+}
+
+.footer-top{
+  background-image: url(../img/footer-top-bg.png);
+  background-repeat: no-repeat;
+  background-position: 0 110px;
+  background-size: auto;
 }
 
 .footer-top__box{
